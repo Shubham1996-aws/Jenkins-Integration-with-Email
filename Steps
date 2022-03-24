@@ -1,0 +1,18 @@
+Please follw this Video foe Jenkins Integration with Email
+https://www.youtube.com/watch?v=CXdfVJxK1OQ
+
+Please Follow this Steps:-
+
+For this we need SMTP server details. using SMTP detail we send email notification as part of Jenkins Job.
+
+Manage Jenkins=>Configure system=> E-mail Notification
+
+SMTP Server:- smtp.gmail.com
+click on Advanced
+Check Use SMTP Authentication
+User Name:- Put the email id.(abc@gmail.com)
+Password:- password of the abc@gmail.com
+Check Use SSL
+SMTP Port:- 465
+Test the Configuration by sending test e-mail.
+Test e-mail recipient(abc@gmail.com)
